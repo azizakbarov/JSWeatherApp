@@ -23,11 +23,11 @@ const getCity = async (city) => {
   return data[0];
 };
 
-getCity("tashkent")
-  .then((data) => getWeather(data.Key))
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => console.log(err));
+// getCity("tashkent")
+//   .then((data) => getWeather(data.Key))
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((err) => console.log(err));
 
-// getWeather(351199);
+// // getWeather(351199);
